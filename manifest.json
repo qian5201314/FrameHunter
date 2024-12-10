@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "FrameHunter",
+  "version": "1.0",
+  "description": "Extract all iframe URLs from the current page and provide options to open or copy them.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
